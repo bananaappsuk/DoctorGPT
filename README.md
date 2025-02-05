@@ -5,7 +5,7 @@
 </p>
 
 ## Overview
-DoctorGPT is a Large Language Model that can pass the NHS framework. This is an open-source project with a mission to provide everyone their own private doctor. DoctorGPT is a version of Meta's [Llama2](https://ai.meta.com/llama/) 7 billion parameter Large Language Model that was fine-tuned on a Medical Dialogue Dataset, then further improved using Reinforcement Learning & Constitutional AI. Since the model is only 3 Gigabytes in size, it fits on any local device, so there is no need to pay an API to use it. It's free, made for offline usage which preserves patient confidentiality, and it's available on iOS, Android, and Web. Pull requests for feature additions and improvements are encouraged.
+Grethena DoctorGPT is a Large Language Model that can pass the NHS framework. This is an open-source project with a mission to provide everyone their own private doctor. DoctorGPT is a version of Meta's [Llama2](https://ai.meta.com/llama/) 7 billion parameter Large Language Model that was fine-tuned on a Medical Dialogue Dataset, then further improved using Reinforcement Learning & Constitutional AI. Since the model is only 3 Gigabytes in size, it fits on any local device, so there is no need to pay an API to use it. It's free, made for offline usage which preserves patient confidentiality, and it's available on iOS, Android, and Web. Pull requests for feature additions and improvements are encouraged.
 
 ## Dependencies
 - [Numpy](https://numpy.org/install/)           (Use matrix math operations)
@@ -48,23 +48,9 @@ Get jupyter [here](https://jupyter.org/install)
 
 ## Usage 
 
-#### iOS
-   
-- Step 1: [Download](https://github.com/mlc-ai/mlc-llm/tree/main/ios) the iOS Machine Learning Compilation Chat Repository
-- Step 2: Follow the [installation steps](https://mlc.ai/mlc-llm/docs/deploy/ios.html) 
-- Step 3: Once the app is running on your iOS device or simulator, tap "add model variant"
-- Step 4: Enter the URL for the latest DoctorGPT model to download it: [https://huggingface.com/llsourcell/doctorgpt](https://huggingface.co/llSourcell/medllama2_7b)
-- Step 5: Tap 'Add Model' and start chatting locally, inference runs on device. No internet connection needed!
 
-#### Android
 
-- Step 1: [Download](https://github.com/mlc-ai/mlc-llm/tree/main/android) the Android Machine Learning Compilation Chat Repository
-- Step 2: Follow the [installation steps]([https://mlc.ai/mlc-llm/docs/deploy/ios.html](https://mlc.ai/mlc-llm/docs/deploy/android.html)) 
-- Step 3: Tap "add model variant"
-- Step 4: Enter the URL for the latest DoctorGPT model to download it: [https://huggingface.com/llsourcell/doctorgpt](https://huggingface.co/llSourcell/medllama2_7b)
-- Step 5: Tap 'Add Model' and start chatting locally! No internet needed. 
-
-#### Web (TODO)
+#### Web (https://dev.taslearn.vercel.app/Homepagea)
 
 As an experiment in Online Learning using actual human feedback, i want to deploy the model as a Flask API with a React front-end. In this case, anyone can chat with the model at this URL. After each query, a human can rate the model's response. This rating is then used to further improve the model's performance through reinforcement learning. to run the app, download [flask](https://flask.palletsprojects.com/en/2.3.x/) and then you can run:
 
